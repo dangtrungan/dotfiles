@@ -1,8 +1,12 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "formatter": true,
+  "lsp": true,
   "plugin": [
     "opencode-dynamic-context-pruning",
     "opencode-vibeguard",
     "opencode-worktree",
+    "@dietrichgebert/ponytail",
+    "opencode-firecrawl"
   ]
 }
